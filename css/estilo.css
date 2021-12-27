@@ -26,7 +26,7 @@ div#cabecalho{
 p#logo_site{
     color: #000;
     font-family: 'Pushster', cursive;
-    font-size: 55px;
+    font-size: 40px;
 }
 
 ul{
@@ -35,9 +35,9 @@ ul{
 }
 
 li.itens_do_menu{
-    margin: 35px 10px 0 0;
+    margin: 18px 10px 0 0;
     font-size: 1.5em;
-    padding: 25px 15px;
+    padding: 15px 10px;
     border: 0px solid #000;
 }
 
@@ -45,6 +45,7 @@ a.navMenu
 {
     text-decoration: none;
     color: #000;
+    border-radius: 10px;
 }
 
 a.navMenu :hover
@@ -52,55 +53,50 @@ a.navMenu :hover
     color: #ffa800;
     background-color: #000;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 /* ------- MAIN ------- */
 
-div.bloco_acesso_user{
+div.bloco_formulario{
     display: block;
-    width: 250px;
+    width: 500px;
     text-align: center;
     margin: 5% auto 0 auto;
-    border: 1px solid #000;
+    border: 1px solid silver;
     border-radius: 15px;
 }
 
 div.formulario{
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
-input#user, input#password_user{
-    border-style: inherit;
-    border-bottom: 1px solid #000;
-    color: #000;
-    padding: 5px 10px;
+input.tamanho_entrada_dados, textarea.tamanho_entrada_dados{
+    width: 400px;
+    margin: 20px 0;
+    padding: 10px 5px;
+    border: 0px;
+    text-align: center;
+    border-bottom: 1px solid silver;
 }
 
-input#entrar{
-    cursor: pointer;
-    background-color: #fff;
-    margin-top: 10px;
-    padding: 10px 15px;
-    border-radius: 10px;
+input#enviar{
+    border: 1px solid #ffa800;
+    background-color: #ffa800;
     color: #000;
     font-weight: bold;
-    border: 1px solid silver;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 7px;
 }
 
-input#entrar:hover{
-    color: #fff;
+input#enviar:hover{
+    border: 1px solid #000;
     background-color: #000;
-}
-
-h6 a{
-    text-decoration: none;
-    color: #000;
-    font-size: 0.9em;
-}
-
-h6 a:hover{
-    text-decoration: underline;
-    color: #000;
+    color: #ffa800;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
 }
 
 /* ------- FOOTER ------- */
