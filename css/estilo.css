@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+/* ------- GENERAL STRUCTURE ------- */
+
+body{
+    /*background-color: purple;*/
+    background-color: #fff;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ------- HEADER ------- */
+
+header{
+    background-color: rgba(255, 168, 0, 1);
+    border: 0px solid black;
+}
+
+div#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+p#logo_site{
+    color: #000;
+    font-family: 'Pushster', cursive;
+    font-size: 55px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li.itens_do_menu{
+    margin: 35px 10px 0 0;
+    font-size: 1.5em;
+    padding: 25px 15px;
+    border: 0px solid #000;
+}
+
+a.navMenu
+{
+    text-decoration: none;
+    color: #000;
+}
+
+a.navMenu :hover
+{
+    color: #ffa800;
+    background-color: #000;
+    text-decoration: none;
+}
+
+/* ------- MAIN ------- */
+
+div.bloco_acesso_user{
+    display: block;
+    width: 250px;
+    text-align: center;
+    margin: 5% auto 0 auto;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+div.formulario{
+    margin-top: 20px;
+}
+
+input#user, input#password_user{
+    border-style: inherit;
+    border-bottom: 1px solid #000;
+    color: #000;
+    padding: 5px 10px;
+}
+
+input#entrar{
+    cursor: pointer;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid silver;
+}
+
+input#entrar:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+h6 a{
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9em;
+}
+
+h6 a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+/* ------- FOOTER ------- */
+p#footer{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10%;
+    padding: 10px;
+    background-color: rgba(255, 168, 0, 1);
+}
