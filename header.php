@@ -14,16 +14,12 @@
                             </a>
                             <a href="quem_somos.php" class="navMenu" alt="Conheça sobre nós" >
                                 <li class="itens_do_menu" id="is-selected">
-                                    <span>
-                                        Quem Somos
-                                    </span>
+                                    Quem Somos
                                 </li>
                             </a>
                             <a href="vamos_conversar.php" class="navMenu" alt="Ficou com alguma dúvida? Vamos conversar.">
                                 <li class="itens_do_menu">
-                                    <span>
-                                        Vamos conversar?
-                                    </span>
+                                    Vamos conversar?
                                 </li>
                             </a>
                         </ul>

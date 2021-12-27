@@ -56,7 +56,43 @@ a.navMenu :hover
     border-radius: 10px;
 }
 
-/* ------- MAIN ------- */
+/* ------- MAIN - INÍCIO ------- */
+
+/* ------- MAIN - QUEM SOMOS ------- */
+
+h2{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.bloco_informacoes{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.descricao_quem_somos{
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 2em;
+}
+
+figure{
+    margin: 20px auto;
+    width: 400px;
+}
+
+figure img{
+    border-radius: 25px;
+    width: 400px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: small;
+}
+
+/* ------- MAIN - VAMOS CONVERSAR ------- */
 
 div.bloco_formulario{
     display: block;
