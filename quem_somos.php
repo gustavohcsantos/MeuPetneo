@@ -4,7 +4,7 @@
     
     echo '
         <main>
-            .
+            Página "Quem Somos".
         </main>
     ';
 

@@ -8,9 +8,9 @@
                     <!--<span style="font-size: small; margin: auto 0">"Seu pet com estilo!"</span>-->
                     <nav>
                         <ul class="menu">
-                            <a href="#" class="navMenu" alt="Voltar para a página principal"><li class="itens_do_menu">Início</li></a>
-                            <a href="#" class="navMenu" alt="Conheça sobre nós" ><li class="itens_do_menu">Quem Somos</li></a>
-                            <a href="#" class="navMenu" alt="Ficou com alguma dúvida? Vamos conversar."><li class="itens_do_menu">Vamos conversar?</li></a>
+                            <a href="index.php" class="navMenu" alt="Voltar para a página principal"><li class="itens_do_menu">Início</li></a>
+                            <a href="quem_somos.php" class="navMenu" alt="Conheça sobre nós" ><li class="itens_do_menu">Quem Somos</li></a>
+                            <a href="vamos_conversar.php" class="navMenu" alt="Ficou com alguma dúvida? Vamos conversar."><li class="itens_do_menu">Vamos conversar?</li></a>
                         </ul>
                     </nav>
                 </div>
