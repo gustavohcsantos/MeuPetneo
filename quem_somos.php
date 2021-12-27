@@ -5,9 +5,9 @@
     echo '
         <main>
             <div class="bloco_informacoes">
-                <h2>
+                <h3>
                     "Curiosidade, quem são vocês?"
-                </h2>
+                </h3>
 
                 <p class="descricao_quem_somos">
                     Oooooii, como está sendo sua semana? Espero que incrível!<br />

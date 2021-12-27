@@ -60,7 +60,7 @@ a.navMenu :hover
 
 /* ------- MAIN - QUEM SOMOS ------- */
 
-h2{
+h3{
     margin-top: 40px;
     text-align: center;
 }
@@ -98,7 +98,7 @@ div.bloco_formulario{
     display: block;
     width: 500px;
     text-align: center;
-    margin: 5% auto 0 auto;
+    margin: 35px auto 0 auto;
     border: 1px solid silver;
     border-radius: 15px;
 }
