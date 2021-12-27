@@ -108,6 +108,11 @@ p#footer{
     font-size: 14px;
     text-align: center;
     margin-top: 10%;
-    padding: 10px;
+    padding: 20px;
     background-color: rgba(255, 168, 0, 1);
+}
+
+p#footer a{
+    text-decoration: none;
+    color: #000;
 }
