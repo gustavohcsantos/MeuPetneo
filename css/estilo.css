@@ -3,7 +3,6 @@
 /* ------- GENERAL STRUCTURE ------- */
 
 body{
-    /*background-color: purple;*/
     background-color: #fff;
     color: #000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -58,16 +57,60 @@ a.navMenu :hover
 
 /* ------- MAIN - INÍCIO ------- */
 
+.bloco_formulario_petneo{
+    display: block;
+    width: 310px;
+    text-align: center;
+    margin: 35px auto 0 auto;
+    border: 1px solid silver;
+    border-radius: 15px;
+}
+
+.formulario_petneo{
+    display: flex;
+    margin: 0 auto;
+}
+
+input.entrada_dados_index{
+    width: 125px;
+    margin: 20px 10px;
+    padding: 10px 5px;
+    border: 0px;
+    text-align: center;
+    border-bottom: 1px solid silver;
+}
+
+input#calcular{
+    border: 1px solid #ffa800;
+    background-color: #ffa800;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+input#calcular:hover{
+    border: 1px solid #000;
+    background-color: #000;
+    color: #ffa800;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
 /* ------- MAIN - QUEM SOMOS ------- */
 
 h3{
-    margin-top: 40px;
     text-align: center;
 }
 
 .bloco_informacoes{
-    width: 80%;
-    margin: 0 auto;
+    width: 60%;
+    margin: 20px auto 0 auto;
+    border: 1px solid silver;
+    border-radius: 15px;
 }
 
 .descricao_quem_somos{
@@ -114,6 +157,11 @@ input.tamanho_entrada_dados, textarea.tamanho_entrada_dados{
     border: 0px;
     text-align: center;
     border-bottom: 1px solid silver;
+}
+
+div.dados_petneo{
+    display: flex;
+    margin: 0 auto;
 }
 
 input#enviar{

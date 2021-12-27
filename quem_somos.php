@@ -1,6 +1,6 @@
 <?php
-    include 'head.php';
-    include 'header.php';
+    include './estrutura_site/head.php';
+    include './estrutura_site/header.php';
     
     echo '
         <main>
@@ -11,7 +11,7 @@
 
                 <p class="descricao_quem_somos">
                     Oooooii, como está sendo sua semana? Espero que incrível!<br />
-                    Eu me chamo Cindy, tenho 12 aninhos e meu tutor Gustavo e até hoje não sei a idade dele, mas é um ser humaninho incrível! Apresentarei um pouquinho sobre como surgiu o <strong>Meu Petneo</strong>.<br />
+                    Eu me chamo Cindy, tenho 12 aninhos e meu tutor Gustavo, até hoje não sei a idade dele, mas é um ser humaninho incrível! Apresentarei um pouquinho sobre como surgiu o <strong>Meu Petneo</strong>.<br />
 
                 </p>
             
@@ -31,5 +31,5 @@
         </main>
     ';
 
-    include 'footer.php';
+    include './estrutura_site/footer.php';
 ?>
