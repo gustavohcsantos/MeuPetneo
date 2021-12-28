@@ -59,14 +59,23 @@ a.navMenu :hover
 
 .bloco_formulario_petneo{
     display: block;
-    width: 310px;
+    width: 600px;
+    height: 275px;
     text-align: center;
     margin: 35px auto 0 auto;
-    border: 1px solid silver;
     border-radius: 15px;
 }
 
+#bloco_secao_input_dados{
+    width: 310px;
+    margin: 0 auto;
+}
+
 .formulario_petneo{
+    display: block;
+}
+
+article.dados_petneo{
     display: flex;
     margin: 0 auto;
 }
@@ -98,6 +107,15 @@ input#calcular:hover{
     font-weight: bold;
     cursor: pointer;
     border-radius: 7px;
+}
+
+input.resultado_dados_index{
+    width: 550px;
+    margin: 20px 10px;
+    padding: 10px 5px;
+    border: 0px;
+    text-align: center;
+    border-bottom: 1px solid silver;
 }
 
 /* ------- MAIN - QUEM SOMOS ------- */
@@ -157,11 +175,6 @@ input.tamanho_entrada_dados, textarea.tamanho_entrada_dados{
     border: 0px;
     text-align: center;
     border-bottom: 1px solid silver;
-}
-
-div.dados_petneo{
-    display: flex;
-    margin: 0 auto;
 }
 
 input#enviar{
