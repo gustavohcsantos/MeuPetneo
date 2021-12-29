@@ -2,7 +2,7 @@
     include './estrutura_site/head.php';
     include './estrutura_site/header.php';
     
-    echo '
+?>
         <main>
             <h3>
                 Informe os dados do seu Petneo. =)
@@ -26,7 +26,6 @@
                 </div>
             </div>
         </main>
-    ';
-
+<?php
     include './estrutura_site/footer.php';
 ?>
