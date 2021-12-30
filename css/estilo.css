@@ -60,15 +60,24 @@ a.navMenu :hover
 .bloco_formulario_petneo{
     display: block;
     width: 600px;
-    height: 275px;
     text-align: center;
     margin: 35px auto 0 auto;
     border-radius: 15px;
 }
 
+#informativo{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#instrucoes_medidas{
+    font-size: 15px;
+    text-align: justify;
+}
+
 #bloco_secao_input_dados{
     width: 310px;
-    margin: 0 auto;
+    margin: 5% auto 0 auto;
 }
 
 .formulario_petneo{
