@@ -1,5 +1,5 @@
 <?php
-    include './estrutura_site/head.php';
+    /*include './estrutura_site/head.php';
     include './estrutura_site/header.php';
 ?>
     
@@ -21,48 +21,46 @@
     </main>
 
 <?php
-    include './estrutura_site/footer.php';
+    include './estrutura_site/footer.php';*/
 ?>
 
 <?php
-    /*include './estrutura_site/head.php';
+    include './estrutura_site/head.php';
     include './estrutura_site/header.php';
     
+    $from = 'gustavohcsantos@gmail.com';
+    $name_user = "";
+    $email_user = "";
+    $subject = "";
+    $text = "";
+    $output_form = false;
+
     if(isset($_POST['submit'])){
-        $from = 'gustavohcsantos.emaildeteste@gmail.com';
+        $from = 'gustavohcsantos@gmail.com';
         $name_user = $_POST['name_user'];
         $email_user = $_POST['email_user'];
         $subject = $_POST['subject'];
         $text = $_POST['text'];
-        $output_form = false;
 
-        if(empty($name_user)) && (empty($email_user)) && (empty($subject)) && (empty($text)){
-            echo "Ambos campos estão vazios.<br>Por favor, preencha-os antes de enviar.<br><br>";
-            $output_form = true;
-        }
-        if(empty($name_user)) && (!empty($email_user)) && (!empty($subject)) && (!empty($text)){
+        if(empty($name_user)){
             echo "Por favor, preencha o campo NOME antes de enviar.<br><br>";
             $output_form = true;
-        }
-        if(!empty($name_user)) && (empty($email_user)) && (!empty($subject)) && (!empty($text)){
+        }else if(empty($email_user)){
             echo "Por favor, preencha o campo e-MAIL antes de enviar.<br><br>";
             $output_form = true;
-        }
-        if(!empty($name_user)) && (!empty($email_user)) && (empty($subject)) && (!empty($text)){
+        }else if(empty($subject)){
             echo "Por favor, preencha o campo ASSUNTO antes de enviar.<br><br>";
             $output_form = true;
-        }
-        if(!empty($name_user)) && (!empty($email_user)) && (!empty($subject)) && (empty($text)){
+        }else if(empty($text)){
             echo "Por favor, preencha o campo MENSAGEM antes de enviar.<br><br>";
             $output_form = true;
+        }else{
+            $msg = "Nome: $name_user<br /><br />Mensagem: $text";
+            mail($email_user, $subject, $msg, 'From:' . $from);
+            echo "enviado";
         }
     }else{
         $output_form = true;
-    }
-
-    if(!empty($name_user)) && (!empty($email_user)) && (!empty($subject)) && (!empty($text)){
-        $msg = "Nome: $name_user<br /><br />Mensagem: $text";
-        mail($email_user, $subject, $msg, 'From:' . $from);
     }
 
     if($output_form){
@@ -85,5 +83,5 @@
         </main>
     <?php
     }
-    include './estrutura_site/footer.php';*/
+    include './estrutura_site/footer.php';
 ?>
