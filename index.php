@@ -29,6 +29,7 @@
                             <input type="text" name="peso" id="peso" class="entrada_dados_index" placeholder="Peso (Kg)" /><br />
                         </article>
                     </section>
+                    <input type="reset" name="limpar" id="limpar" value="Limpar"/>
                     <input type="submit" name="calcular" id="calcular" value="Calcular" onclick="calcular_tamanho_roupa_pet()"/><br />
                     <input type="text" name="resultado" id="resultado" class="resultado_dados_index" placeholder="O RESULTADO APARECERÁ AQUI..." /><br />
                 </form>
