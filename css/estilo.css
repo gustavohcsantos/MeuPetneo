@@ -31,10 +31,10 @@ p#logo_site{
 ul{
     list-style-type: none;
     display: flex;
+    margin: 35px 10px 0 0;
 }
 
 li.itens_do_menu{
-    margin: 18px 10px 0 0;
     font-size: 1.5em;
     padding: 15px 10px;
     border: 0px solid #000;
@@ -56,13 +56,21 @@ a.navMenu :hover
 }
 
 /* ------- MAIN - INÍCIO ------- */
+.bloco_google_ads{
+    display: block;
+    width: 20%;
+    height: 200px;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
 
 .bloco_formulario_petneo{
     display: block;
-    width: 600px;
+    width: 60%;
     text-align: center;
     margin: 35px auto 0 auto;
     border-radius: 15px;
+    line-height: 25px;
 }
 
 #informativo{
@@ -77,7 +85,7 @@ a.navMenu :hover
 
 #bloco_secao_input_dados{
     width: 310px;
-    margin: 5% auto 0 auto;
+    margin: 2% auto 0 auto;
 }
 
 .formulario_petneo{
@@ -103,7 +111,7 @@ input.entrada_dados_index{
     border-bottom: 1px solid silver;
 }
 
-input#calcular, input#limpar{
+#calcular, #limpar{
     border: 1px solid #ffa800;
     background-color: #ffa800;
     color: #000;
@@ -114,7 +122,7 @@ input#calcular, input#limpar{
     margin-bottom: 20px;
 }
 
-input#calcular:hover, input#limpar:hover{
+#calcular:hover, #limpar:hover{
     border: 1px solid #000;
     background-color: #000;
     color: #ffa800;
@@ -146,20 +154,20 @@ h3{
 }
 
 .descricao_quem_somos{
-    width: 80%;
-    text-align: center;
+    width: 90%;
+    text-align: justify;
     margin: 10px auto;
     line-height: 2em;
 }
 
 figure{
     margin: 20px auto;
-    width: 400px;
+    width: 60%;
 }
 
 figure img{
     border-radius: 25px;
-    width: 400px;
+    width: 100%;
 }
 
 figcaption{

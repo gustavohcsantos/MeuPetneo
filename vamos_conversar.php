@@ -9,7 +9,7 @@
 
     if(isset($_POST['enviar'])){
         
-        $from = 'gustavohcsantos@gmail.com';
+        $email_to = 'gustavohcsantos@gmail.com';
         $name_user = $_POST['name_user'];
         $email_user = $_POST['email_user'];
         $subject = $_POST['subject'];
@@ -40,9 +40,8 @@
     }
     if(!empty($name_user) && !empty($email_user) && !empty($subject) && !empty($text)){
         $msg = "Nome: $name_user<br /><br />Mensagem: $text";
-        mail($email_user, $subject, $msg, 'From:' . $from);
-        echo "Mensagem enviada com sucesso!";
-        //echo "<br><br>$name_user<br>$email_user<br>$subject<br>$text";
+        mail($email_to, $subject, $msg, 'From:' . $email_user);
+        ?><script type="text/javascript">alert("E-mail enviado com sucesso!");</script><?php
     }
     if($output_form = true){
     ?>
@@ -53,10 +52,10 @@
             <div class="bloco_formulario">
                 <div class="formulario">
                     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                        <input type="text" name="name_user" id="name_user" class="tamanho_entrada_dados" placeholder="Nome" required="required" value="<?php echo $name_user ?>" /><br />
-                        <input type="text" name="email_user" id="email_user" class="tamanho_entrada_dados" placeholder="e-Mail" required="required" value="<?php echo $email_user ?>" /><br />
-                        <input type="text" name="subject" id="subject" class="tamanho_entrada_dados" placeholder="Qual assunto?" required="required" value="<?php echo $subject ?>" /><br />
-                        <textarea name="text" id="text" class="tamanho_entrada_dados" placeholder="Sobre o que quer falar?" required="required" ><?php echo $text ?></textarea><br /><br />
+                        <input type="text" name="name_user" id="name_user" class="tamanho_entrada_dados" placeholder="Nome" value="<?php echo $name_user ?>" /><br />
+                        <input type="text" name="email_user" id="email_user" class="tamanho_entrada_dados" placeholder="e-Mail" value="<?php echo $email_user ?>" /><br />
+                        <input type="text" name="subject" id="subject" class="tamanho_entrada_dados" placeholder="Qual assunto?" value="<?php echo $subject ?>" /><br />
+                        <textarea name="text" id="text" class="tamanho_entrada_dados" placeholder="Sobre o que quer falar?" ><?php echo $text ?></textarea><br /><br />
                         <input type="submit" name="enviar" id="enviar" value="Enviar"/>
                     </form>
                 </div>

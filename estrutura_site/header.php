@@ -3,7 +3,7 @@
         <body>
             <header>
                 <div id="cabecalho">
-                    <p id="logo_site">Meu Petneo</p>
+                    <a href="./index.php" style="text-decoration: none"><p id="logo_site">Meu Petneo</p></a>
 
                     <nav>
                         <ul class="menu">
