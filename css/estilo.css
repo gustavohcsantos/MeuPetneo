@@ -60,7 +60,6 @@ a.navMenu :hover
     display: block;
     width: 20%;
     height: 200px;
-    justify-content: space-between;
     border: 1px solid #000;
 }
 
@@ -80,7 +79,7 @@ a.navMenu :hover
 
 #instrucoes_medidas{
     font-size: 15px;
-    text-align: justify;
+    text-align: center;
 }
 
 #bloco_secao_input_dados{

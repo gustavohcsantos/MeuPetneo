@@ -13,12 +13,10 @@
                         Cada pet tem um corpinho que é só dele.<br />
                         Veja aqui como escolher o tamanho certo para o seu:
                     </article>
-                    <article id="instrucoes_medidas">
-                        <ul>
-                            <l1>- Com uma fita métrica, meça o <strong>comprimento</strong> da base do pescoço até a base da cauda;</li><br />
-                            <l1>- Da mesma forma, meça a circunferência do peitoral (<strong>tórax</strong>) e a circunferência do <strong>pescoço</strong>;</li><br />
-                            <l1>- O <strong>peso</strong> do seu pet também pode ajudar a tirar as dúvidas;</li><br />
-                        </ul>
+                    <article id="instrucoes_medidas"><br />
+                            - Com uma fita métrica, meça o <strong>comprimento</strong> da base do pescoço até a base da cauda;<br />
+                            - Da mesma forma, meça a circunferência do peitoral (<strong>tórax</strong>) e a circunferência do <strong>pescoço</strong>;<br />
+                            - O <strong>peso</strong> do seu pet também pode ajudar a tirar as dúvidas;<br />
                     </article>
                 </section>
                 <section id="bloco_secao_input_dados">
@@ -31,7 +29,7 @@
                         <input type="text" name="peso" id="peso" class="entrada_dados_index" placeholder="Peso (Kg)" required="required" /><br />
                     </article>
                 </section>
-                <input type="reset" name="limpar" id="limpar" value="Limpar"/>
+                <!--<input type="reset" name="limpar" id="limpar" value="Limpar"/>-->
                 <button id="calcular" onclick="calcular_tamanho_roupa_pet()">Calcular</button><br />
                 <input type="text" name="resultado" id="resultado" class="resultado_dados_index" placeholder="O RESULTADO APARECERÁ AQUI..." /><br />
             </div>
