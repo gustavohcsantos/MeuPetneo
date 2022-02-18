@@ -230,3 +230,15 @@ p#footer a{
     text-decoration: none;
     color: #000;
 }
+
+/* ------- MAIN - MEDICAÇÃO ------- */
+#medicacao{
+    text-align: center;
+}
+
+.quadro_medicacao{
+    display: inline-block;
+}
+
+.itens_medicacao{
+}
