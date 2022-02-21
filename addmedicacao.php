@@ -15,8 +15,11 @@
 
         if(($nome != "") && ($dose != "") && ($horarios != "") && ($por_quantos_dias != "")){
             include 'connectDB.php';
-            $query = "INSERT INTO medication_list(nome, dose, horarios, por_quantos_dias) values()";
-        }
+            $query = "INSERT INTO medication_list(nome, dose, horarios, por_quantos_dias) values('$nome', '$dose', '$horarios', '$por_quantos_dias')";
+            mysqli_query($dbc, $query);
+            mysqli_close($dbc);
+            ?><script>alert(Medicação adicionada com sucesso!);</script><?php
+        }else{?><script>alert(Por favor, preencha todos os campos!);</script><?php}
     ?>
 </body>
 </html>
