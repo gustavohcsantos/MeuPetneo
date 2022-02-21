@@ -1,6 +1,7 @@
 <?php
-    include './estrutura_site/head.php';
-    include './estrutura_site/header.php';
+    include './estrutura_site/head.php';?>
+    <link rel="stylesheet" href="./css/vamos_conversar.css" type="text/css" />
+    <?php include './estrutura_site/header.php';
     
     $name_user = "";
     $email_user = "";
@@ -46,9 +47,9 @@
     if($output_form = true){
     ?>
         <main>
-            <h3>
+            <h4>
                 Como está seu pet hoje? Espero que feliz. =)
-            </h3>
+            </h4>
             <div class="bloco_formulario">
                 <div class="formulario">
                     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">

@@ -1,0 +1,32 @@
+#bloco_acesso{
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto 0 auto;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+#user_access, #password_access{
+    border: 0px;
+    border-bottom: 1px solid gray;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+#password_access{
+    margin: 20px 0;
+}
+
+p#esqueci_minha_senha a{
+    text-decoration: none;
+    color: gray;
+    font-size: 0.7em;
+}
+
+p#esqueci_minha_senha a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 0.7em;
+}

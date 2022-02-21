@@ -1,5 +1,7 @@
 <?php
     echo '
+        </head>
+
         <body>
             <header>
                 <div id="cabecalho">

@@ -1,6 +1,7 @@
 <?php
-    include './estrutura_site/head.php';
-    include './estrutura_site/header.php';
+    include './estrutura_site/head.php';?>
+    <link rel="stylesheet" href="./css/index.css" type="text/css" />
+    <?php include './estrutura_site/header.php';
 ?>
     <main>
         <!--<div class="bloco_google_ads"></div>

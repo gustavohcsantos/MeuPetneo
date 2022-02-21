@@ -1,0 +1,32 @@
+h3{
+    text-align: center;
+}
+
+.bloco_informacoes{
+    width: 60%;
+    margin: 20px auto 0 auto;
+    border: 1px solid silver;
+    border-radius: 15px;
+}
+
+.descricao_quem_somos{
+    width: 90%;
+    text-align: justify;
+    margin: 10px auto;
+    line-height: 2em;
+}
+
+figure{
+    margin: 20px auto;
+    width: 60%;
+}
+
+figure img{
+    border-radius: 25px;
+    width: 100%;
+}
+
+figcaption{
+    text-align: center;
+    font-size: small;
+}

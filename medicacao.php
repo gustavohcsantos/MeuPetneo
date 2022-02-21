@@ -1,6 +1,7 @@
 <?php
-    include './estrutura_site/head.php';
-    include './estrutura_site/header.php';
+    include './estrutura_site/head.php';?>
+    <link rel="stylesheet" href="./css/medicacao.css" type="text/css" />
+    <?php include './estrutura_site/header.php';
 ?>
     <main>
         <form action="addmedicacao.php" method="POST">
