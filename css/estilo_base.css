@@ -31,11 +31,11 @@ p#logo_site{
 ul{
     list-style-type: none;
     display: flex;
-    margin: 35px 10px 0 0;
+    margin: 9% 10px 0 0;
 }
 
 li.itens_do_menu{
-    font-size: 1.5em;
+    font-size: 0.9em;
     padding: 15px 10px;
     border: 0px solid #000;
 }
@@ -57,9 +57,9 @@ a.navMenu :hover
 
 /* ------- FOOTER ------- */
 p#footer{
-    font-size: 14px;
+    font-size: 0.6em;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 2%;
     padding: 20px;
     background-color: rgba(255, 168, 0, 1);
 }

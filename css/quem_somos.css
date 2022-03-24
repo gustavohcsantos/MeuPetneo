@@ -1,4 +1,4 @@
-h3{
+h4{
     text-align: center;
 }
 
@@ -9,11 +9,12 @@ h3{
     border-radius: 15px;
 }
 
-.descricao_quem_somos{
+p.descricao_quem_somos{
     width: 90%;
     text-align: justify;
     margin: 10px auto;
     line-height: 2em;
+    font-size: 0.8em;
 }
 
 figure{
@@ -28,5 +29,5 @@ figure img{
 
 figcaption{
     text-align: center;
-    font-size: small;
+    font-size: 0.7em;
 }

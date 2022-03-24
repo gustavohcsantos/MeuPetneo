@@ -24,6 +24,11 @@
                                     Vamos conversar?
                                 </li>
                             </a>
+                            <a href="tela_de_acesso.php" class="navMenu" alt="Acessar meu painel de usuário">
+                                <li class="itens_do_menu">
+                                    Entrar
+                                </li>
+                            </a>
                         </ul>
                     </nav>
                 </div>

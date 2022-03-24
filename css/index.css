@@ -16,11 +16,11 @@
 
 #informativo{
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.8em;
 }
 
 #instrucoes_medidas{
-    font-size: 15px;
+    font-size: 0.8em;
     text-align: center;
 }
 

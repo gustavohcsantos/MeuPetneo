@@ -5,9 +5,9 @@
 ?>
     <main>
         <div class="bloco_informacoes">
-            <h3>
+            <h4>
                 "Curiosidade, quem são vocês?"
-            </h3>
+            </h4>
 
             <p class="descricao_quem_somos">
                 Oooooii, como está sendo sua semana? Espero que incrível!<br />
@@ -17,7 +17,7 @@
             <figure>
                 <img src="img/cindy.png" alt="Uma imagem impressionante">
                 <figcaption>
-                    Olha eu aí na foto. Admita,<br />você também me achou linda!
+                    Olha eu aí na foto. Admita, você também me achou linda!
                 </figcaption>
             </figure>
 
